@@ -6,6 +6,37 @@
   <router-view/>
 </template>
 
+<script>
+import Papa from 'papaparse';
+import { extensionsMixin } from '../js/extensionsMixin.js'
+import { resourcesMixin } from '../js/resourcesMixin.js'
+import CountriesCodes from "./components/CountriesCodes";
+import CountriesTextBox from "./components/CountriesTextBox";
+import ForecastTypeTabs from "./components/ForecastTypeTabs";
+
+
+import View from 'ol/View'
+import Map from 'ol/Map'
+import TileLayer from 'ol/layer/Tile'
+import Feature from 'ol/Feature'
+import OSM from 'ol/source/OSM'
+
+import VectorSource from "ol/source/Vector";
+import Point from "ol/geom/Point";
+import VectorLayer from "ol/layer/Vector";
+
+import { fromLonLat } from 'ol/proj'
+// importing the OpenLayers stylesheet is required for having
+// good looking buttons!
+import 'ol/ol.css'
+
+
+
+export default {
+
+}
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
