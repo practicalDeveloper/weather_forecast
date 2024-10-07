@@ -1,19 +1,28 @@
-# weather_forecast
+# Weather forecast
+The source code for the article https://tproger.ru/articles/prilozhenie-dlya-prognoza-pogody-na-vue-js
 
-## Project setup
-```
-npm install
-```
+The project is Vue JS, HTML based application to show weather forecast based on the location which the user can set manually.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+In the project are used: OpenWeatherMap API to get weather forecast, OpenStreetMap to show location on the map, Papa Parse library to get list of locations from the csv files.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Online demo is available at https://practicaldeveloper.github.io/weather_forecast_vue/
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Project setup
+
+- Clone the project:
+  ```
+  git clone https://github.com/practicalDeveloper/weather_forecast_vue
+  ```
+- enter the project directory:
+  ```
+  cd weather_forecast_vue
+  ```
+- install dependencies:
+  ```
+  npm install
+  ```
+- launch the local server:
+  ```
+  npm run serve
+  ```
+  
