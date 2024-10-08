@@ -1,0 +1,50 @@
+form {
+    /* Sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    
+    /* Draws the box around it */
+    border: 1px solid grey;
+  
+    /* The edges of the elements */
+    padding: 2px 2px 5px 5px ;
+  }
+  
+  input {
+    /* Tell the input to use all the available space */
+    flex-grow:2;
+    /* Hide the input's outline */
+    border:none;
+    font-size: 20px;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  input:focus {
+    /* removing the input focus blue box */
+    outline: none;
+  }
+  
+  button {
+    border:1px solid rgb(255, 255, 255);
+    background:rgb(255, 255, 255);
+    text-align: center;
+    color: var(--darkBlueBackground);
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  #searchArea{ 
+    background-color: rgb(255, 255, 255);
+    width: var(--searchAreaWidth);
+    margin: auto;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .flex-container {
+    display: flex;
+}
+  
+  
+  
