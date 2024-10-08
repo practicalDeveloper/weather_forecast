@@ -20,8 +20,8 @@ export default {
 
     methods: {
         async initialInit() {
-            this.allCountriesCities = await this.parseCSV('https://practicaldeveloper.github.io/weather_forecast_vue/files/allCitiesWithRus.csv');
-            this.allCountriesCodes = await this.parseCSV('https://practicaldeveloper.github.io/weather_forecast_vue/files/allCountriesWithRus.csv');
+            this.allCountriesCities = await this.parseCSV('https://practicaldeveloper.github.io/weather_forecast/files/allCitiesWithRus.csv');
+            this.allCountriesCodes = await this.parseCSV('https://practicaldeveloper.github.io/weather_forecast/files/allCountriesWithRus.csv');
         },
 
         async parseCSV(fileCSV) {

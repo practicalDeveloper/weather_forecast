@@ -1,6 +1,6 @@
 // vue.config.js
 module.exports = {
-  publicPath: '/weather_forecast_vue/',
+  publicPath: '/weather_forecast/',
     transpileDependencies: [
       "ol",
       "color-parse"
